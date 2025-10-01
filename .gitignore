@@ -3,36 +3,29 @@
 env/
 venv/
 
-# Archivos de Python compilados
+# Python cache/artefacts
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pdb
-
-# Archivos temporales
 *.log
-*.pot
-*.pyc
 *.swp
 *.swo
 .DS_Store
 
-# Configuración de editor/IDE
+# IDE
 .vscode/
 .idea/
 
-# Bases de datos locales
+# Bases locales
 app.db
 
-# Entornos/env files
+# Env files
 .env
 .env.*
 
-# Docker
-*.pid
-*.seed
-*.bak
+# Docker extras
 docker-compose.override.yml
 
 # Tests / coverage
