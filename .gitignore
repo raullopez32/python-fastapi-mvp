@@ -1,0 +1,42 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos temporales
+*.log
+*.pot
+*.pyc
+*.swp
+*.swo
+.DS_Store
+
+# Configuración de editor/IDE
+.vscode/
+.idea/
+
+# Bases de datos locales
+app.db
+
+# Entornos/env files
+.env
+.env.*
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# Tests / coverage
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
