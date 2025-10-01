@@ -9,7 +9,7 @@ Incluye validación con **Pydantic v2**, documentación automática de la API, p
 
 1. Clonar el repositorio e instalar dependencias:
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd python-fastapi-mvp
 
 python -m venv .venv
