@@ -1,9 +1,4 @@
-from fastapi.testclient import TestClient
-from app.main import app
-
-client = TestClient(app)
-
-def test_crud_flow():
+def test_crud_flow(client):
     r = client.get("/items/")
     assert r.status_code == 200
     assert r.json() == []
